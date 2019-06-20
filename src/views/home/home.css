@@ -1,0 +1,34 @@
+.cll_wrap{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction:column;
+}
+.cll_cont{
+    flex:1;
+}
+.cll_bottom{
+    width:100%;
+    height:.98rem;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background: #FFFFFF;
+box-shadow: 0 -4px 6px 0 rgba(0,0,0,0.06);
+}
+
+.cll_bottom>dl{
+    width:25%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cll_bottom>dl>dt{
+    font-family: PingFangSC-Regular;
+    font-size: .2rem;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: .2rem;
+}
