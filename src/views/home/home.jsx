@@ -32,16 +32,16 @@ export default class Home extends Component {
                 </div>
                 <div className="cll_bottom">
                     <dl onClick={this.homePageFn.bind(this)}>
-                        <dd><span className='iconfont'>&#xe622;</span></dd>
-                        <dt>首页</dt>
+                        <dt><span className='iconfont'>&#xe622;</span></dt>
+                        <dd>首页</dd>
                     </dl>
                     <dl onClick={this.routerFn.bind(this)}>
-                        <dd><span className='iconfont'>&#xe621;</span></dd>
-                        <dt>购物车</dt>
+                        <dt><span className='iconfont'>&#xe621;</span></dt>
+                        <dd>购物车</dd>
                     </dl>
                     <dl onClick={this.mePageFn.bind(this)}>
-                        <dd><span className='iconfont'>&#xe604;</span></dd>
-                        <dt>我的</dt>
+                        <dt><span className='iconfont'>&#xe604;</span></dt>
+                        <dd>我的</dd>
                     </dl>
                 </div>
             </div>

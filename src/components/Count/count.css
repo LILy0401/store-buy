@@ -1,0 +1,12 @@
+.cll_count{
+    width: 1.5rem;
+    height: .5rem;
+    border: 1px solid #DBDBDB;
+    border-radius: .1rem;
+    margin-right: .1rem;
+    font-size: .32rem;
+    display: flex;
+}
+.cll_count>span:nth-child(1),.cll_count>span:nth-child(3){
+    color: aqua;
+}

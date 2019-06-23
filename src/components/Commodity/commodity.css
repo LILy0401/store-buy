@@ -1,0 +1,69 @@
+.cll_commodity_css{
+    width: 100%;
+    height: 2rem;
+    background: #FFFFFF;
+    display: flex;
+    box-shadow: inset 0 -1px 0 0 #EBEBEB;
+}
+.cll_commodity_dl{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+.cll_commodity_dt{
+    flex: 3;
+    text-align: center;
+}
+.cll_commodity_dt>img{
+    width: 1.6rem;
+    height: 1.6rem;
+    
+}
+.cll_commodity_dd{
+    flex: 7;
+    padding-left: .1rem;
+}
+.cll_dd_title{
+    width: 100%;
+    height: .7rem;
+    font-size: .28rem;
+    display: flex;
+    align-items: center;
+}
+.cll_dd_title>p:nth-child(1){
+    flex: 7;
+    font-family: PingFangSC-Regular;
+    font-size: .28rem;
+    color: #333333;
+}
+.cll_dd_title>span:nth-child(2){
+    flex: 3;
+    color:  #C6C6C6;
+    font-size: .36rem;
+    text-align: right;
+    padding-right: .15rem;
+}
+.cll_dd_two{
+    width: 100%;
+    height: .4rem;
+    line-height: .4rem;
+    font-family: PingFangSC-Regular;
+    font-size: .24rem;
+    color: #999999;
+}
+.cll_car_count{
+    width: 100%;
+    height: .8rem;
+    display: flex;
+    align-items: center;
+}
+.cll_car_count>span{
+    font-family: PingFangSC-Regular;
+    font-size: .32rem;
+    color: #333333;
+    flex: 3;
+}
+.cll_car_count{
+    flex: 7;
+}

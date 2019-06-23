@@ -1,18 +1,41 @@
 import React, { Component } from 'react'
-import './index.css'
-import {ShopList} from '../../services'
+import './listPage.css';
+import http from '../../utiles/http';
 export default class ListPage extends Component {
-    tzFn(){
-        let {push} = this.props.history;
-        push('/HomePage')
-    }
     componentWillMount(){
+        http.get('/buyer/storelist').then((res)=>{
+            console.log(res);
+        })
+    }
+    goDetail(){
+        this.props.history.push('/Home/HomePage')
     }
     render() {
         return (
-            <ul className='cfp_listpage_wrap'>
-                <li onClick={this.tzFn.bind(this)}>喵掌柜杂货店</li>
-            </ul>
+            <div className='cfp_listpage_wrap'>
+                <dl className='cfp_listpage_dl' onClick={this.goDetail.bind(this)}>
+                    <dt>
+                        <img src='./1.png'></img>
+                    </dt>
+                    <dd>
+                        <p>二十和石榴的店(你的专属)</p>
+                        <p>规格:高大上</p>
+                        <p>宗旨:</p>
+                    </dd>
+                </dl>
+                <dl className='cfp_listpage_dl'>
+                    <dt>
+                       
+                        <img src='./2.jpg'></img>
+                    </dt>
+                    <dd>
+                        <p>二十和石榴的店(你的专属)</p>
+                        <p>规格:高大上</p>
+                        <p>宗旨:</p>
+                    </dd>
+                </dl>
+            </div>
+          
         )
     }
 }
