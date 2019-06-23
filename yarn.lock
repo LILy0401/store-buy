@@ -8568,6 +8568,13 @@ react@^16.8.6:
     prop-types "^15.6.2"
     scheduler "^0.13.6"
 
+reactjs-swiper@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.npm.taobao.org/reactjs-swiper/download/reactjs-swiper-0.1.0.tgz#38d2dbc4ffe896ecb7293643475555828ce080f1"
+  integrity sha1-ONLbxP/oluy3KTZDR1VVgozggPE=
+  dependencies:
+    swiper "^3.4.2"
+
 read-pkg-up@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/read-pkg-up/-/read-pkg-up-2.0.0.tgz#6b72a8048984e0c41e79510fd5e9fa99b3b549be"
@@ -9682,6 +9689,14 @@ svgo@^1.0.0, svgo@^1.1.1:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
+<<<<<<< HEAD
+=======
+swiper@^3.4.2:
+  version "3.4.2"
+  resolved "https://registry.npm.taobao.org/swiper/download/swiper-3.4.2.tgz#39d6b410b1a39833e1f72d3b72999df5f5e38392"
+  integrity sha1-Oda0ELGjmDPh9y07cpmd9fXjg5I=
+
+>>>>>>> 2acb5a5b60853ed8412a269ee755cfd2b1b8592b
 swiper@^4.5.0:
   version "4.5.0"
   resolved "https://registry.npm.taobao.org/swiper/download/swiper-4.5.0.tgz#4d870bec4f5abe2fb259325849dd2641c9243c0d"

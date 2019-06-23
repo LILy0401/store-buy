@@ -5,7 +5,10 @@ import request from '../utiles/request';
 function ShopList(params){
     return request.get('/buyer/storelist')
 }
-
+function Goodslist(params){
+    return request.get('/store/goods/goodslist')
+}
 export {
-    ShopList
+    ShopList,
+    Goodslist
 }
