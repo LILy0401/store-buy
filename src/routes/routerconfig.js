@@ -3,6 +3,7 @@ import ListPage from '../views/listPage'
 import Home from '../views/home/home'
 import ShopCar from '../views/shopCar'
 import MePage from '../views/mePage'
+import Hot from '../views/hot/hotBuy'
 let routers = [
      {
         path:"/",
@@ -14,7 +15,12 @@ let routers = [
         children:[{
             name:'HomePage',
             path:'/Home/HomePage',
-            component:HomePage
+            component:HomePage,
+            children:[{
+                name:'hot',
+                path:'/Home/HomePage/hot',
+                component:Hot,
+            }]
         },{
             name:'ShopCar',
             path:'/Home/ShopCar',

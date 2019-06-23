@@ -2,13 +2,15 @@
   "name": "demo",
   "version": "0.1.0",
   "private": true,
-  "proxy":"http://148.70.121.59:9001",
+  "proxy": "http://148.70.121.59:9001",
   "dependencies": {
     "dva": "^2.4.1",
     "js-cookie": "^2.2.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "reactjs-swiper": "^0.1.0",
+    "swiper": "^4.5.0"
   },
   "scripts": {
     "start": "react-scripts start",

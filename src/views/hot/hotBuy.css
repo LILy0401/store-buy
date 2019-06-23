@@ -1,0 +1,51 @@
+.hotBuy_swiper{
+    width:100%;
+    height:100%;
+}
+.hotBuy_item{
+    display: flex;
+    width:100%;
+    height:2.6rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.hotBuy_item dt{
+    width:2rem;
+    height:1.6rem;
+}
+.hotBuy_item>dt>img{
+    width:100%;
+    height:100%;
+}
+.hotBuy_item>dd{
+    flex:1;
+    padding-right:.2rem;
+}
+.hotBuy_item>dd>p:nth-child(1){
+    font-family: PingFangSC-Regular;
+    font-size: .28rem;
+    color: #333333;
+    line-height: .38rem;
+}
+
+.hotBuy_last{
+    display: flex;
+    justify-content: space-between;
+}
+.hotBuy_last>span{
+    font-size:.32rem;
+}
+.hotBuy_button{
+    padding-right:.8rem;
+}
+.hotBuy_button>span{
+    width:.5rem;
+    height:.5rem;
+    font-size:.16rem;
+    color:#fff;
+    background: #5ADAD0;
+    border-radius: .06rem;
+    display:inline-block;
+    text-align: center;
+    line-height: .5rem;
+}
