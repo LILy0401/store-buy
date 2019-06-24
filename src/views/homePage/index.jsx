@@ -1,12 +1,9 @@
 import React, { Component } from 'react'
-<<<<<<< HEAD
 import './homepage.css'
-=======
-import './index.css'
 import SwiperBar from '../../components/swiper/SwiperBar'
-import {Router,Switch,Route,Redirect} from 'dva/router';
+import {Router,Switch} from 'dva/router';
 import {setRouters} from '../../routes/index'
->>>>>>> 2acb5a5b60853ed8412a269ee755cfd2b1b8592b
+
 export default class HomePage extends Component {
     hotFn(){
         let {push} = this.props.history

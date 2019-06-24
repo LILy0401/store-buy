@@ -23,7 +23,10 @@ export default class hotBuy extends Component {
             }
         })
     }
-    
+    //点击商品跳到详情
+    go_proDetail(){
+        this.props.history.push('/proDetail')
+    }
     render() {
         let {data} = this.state;
         console.log(data)
@@ -31,7 +34,7 @@ export default class hotBuy extends Component {
             <div className='hotBuy_swiper'>   
                     {
                          data.map((item,i)=>{
-                        return  <dl key={item.rank} className='hotBuy_item'>
+                        return  <dl key={item.rank} className='hotBuy_item' onClick={this.go_proDetail.bind(this)}>
                                 <dt><img src={item.img_url}></img></dt>
                                 <dd>
                                     <p>{item.product_name}</p>
